@@ -10,9 +10,9 @@ const SEED_COURSES = [
 			'Master Next.js 15 from the ground up. Learn Server Components, App Router, SSR, SSG, and build production-ready applications with the latest React framework. This comprehensive course covers everything from project setup to deployment, including data fetching patterns, authentication, and performance optimization techniques used by industry professionals.',
 		shortDescription:
 			'Learn Next.js 15 with App Router, Server Components, and modern React patterns for production apps.',
-		imageUrl: '/images/image-1.jpg',
-		heroImage: '/images/image-1.jpg',
-		videoUrl: '/video/video-1.mp4',
+		imageUrl: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/image-1.jpg',
+		heroImage: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/image-1.jpg',
+		videoUrl: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/video-1.mp4',
 		provider: {
 			name: 'StartHub Academy',
 			url: 'https://starthub.academy',
@@ -49,9 +49,9 @@ const SEED_COURSES = [
 			'Take your React skills to the next level with advanced design patterns and architectural best practices. Learn compound components, render props, custom hooks, state machines, and how to build scalable, maintainable React applications. This course is designed for developers who want to write cleaner, more efficient React code.',
 		shortDescription:
 			'Master advanced React patterns including compound components, custom hooks, and scalable architecture.',
-		imageUrl: '/images/image-2.jpg',
-		heroImage: '/images/image-2.jpg',
-		videoUrl: '/video/video-2.mp4',
+		imageUrl: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/image-2.jpg',
+		heroImage: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/image-2.jpg',
+		videoUrl: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/video-2.mp4',
 		provider: {
 			name: 'StartHub Academy',
 			url: 'https://starthub.academy',
@@ -87,9 +87,9 @@ const SEED_COURSES = [
 			'Learn how to use TypeScript effectively in React applications. From basic types to advanced generics, this course covers everything you need to write type-safe React code. Includes practical examples with hooks, context, Redux, and form libraries. Build confidence with compile-time error checking and improved developer experience.',
 		shortDescription:
 			'Complete TypeScript guide for React developers - from basics to advanced generics and type-safe patterns.',
-		imageUrl: '/images/image-3.jpg',
-		heroImage: '/images/image-3.jpg',
-		videoUrl: '/video/video-3.mp4',
+		imageUrl: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/image-3.jpg',
+		heroImage: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/image-3.jpg',
+		videoUrl: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/video-3.mp4',
 		provider: {
 			name: 'StartHub Academy',
 			url: 'https://starthub.academy',
@@ -125,9 +125,9 @@ const SEED_COURSES = [
 			'Create websites that everyone can use. This course teaches WCAG guidelines, semantic HTML, ARIA attributes, keyboard navigation, and screen reader compatibility. Learn to audit existing sites for accessibility issues and implement fixes. Essential knowledge for building compliant, user-friendly web applications.',
 		shortDescription:
 			'Learn WCAG guidelines, semantic HTML, ARIA, and techniques to build accessible websites for all users.',
-		imageUrl: '/images/image-4.jpg',
-		heroImage: '/images/image-4.jpg',
-		videoUrl: '/video/video-4.mp4',
+		imageUrl: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/image-4.jpg',
+		heroImage: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/image-4.jpg',
+		videoUrl: 'https://pvlvuqg54cpvg3px.public.blob.vercel-storage.com/video-4.mp4',
 		provider: {
 			name: 'StartHub Academy',
 			url: 'https://starthub.academy',
