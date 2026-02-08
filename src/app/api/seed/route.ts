@@ -173,17 +173,8 @@ const SEED_COURSES = [
 /**
  * POST /api/seed
  * Seeds the database with initial course data
- * Only works in development mode
  */
 export async function POST() {
-	// Only allow in development
-	if (process.env.NODE_ENV === 'production') {
-		return NextResponse.json(
-			{ error: 'Seeding is not allowed in production' },
-			{ status: 403 },
-		)
-	}
-
 	try {
 		await connectDB()
 
