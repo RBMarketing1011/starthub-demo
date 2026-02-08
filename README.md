@@ -60,8 +60,6 @@ curl -X POST http://localhost:3000/api/seed
 
 Or visit `http://localhost:3000/api/seed` and use a REST client to send a POST request.
 
-> **Note:** Seeding only works in development mode (`NODE_ENV=development`).
-
 ## Available Scripts
 
 | Command         | Description                             |
@@ -80,22 +78,26 @@ src/
 │   ├── courses/           # Course pages
 │   │   ├── [slug]/        # Dynamic course detail page
 │   │   └── page.tsx       # Course listing page
+│   ├── layout.tsx         # Root layout
+│   ├── not-found.tsx      # 404 page
 │   └── page.tsx           # Home page
 ├── components/
 │   ├── course/            # Course-specific components
 │   ├── seo/               # JSON-LD components
 │   └── ui/                # shadcn/ui components
 ├── lib/
+│   ├── data/              # Static config (site.config.ts)
 │   ├── db/                # Database layer
+│   │   ├── client/        # Client-side API functions
 │   │   ├── models/        # Mongoose schemas
 │   │   ├── server/        # Server-only data functions
 │   │   └── mongodb.ts     # MongoDB connection
-│   ├── data/              # Static config (site.config.ts)
 │   ├── types/             # TypeScript types
 │   └── utils/             # Utility functions (JSON-LD generators)
+├── styles/
+│   └── globals.css        # Global styles
 └── public/
-    ├── images/            # Course images
-    └── video/             # Course videos
+    └── logo.svg           # Site logo
 ```
 
 ## SEO Features

@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { HomeJsonLd } from '@/components/seo'
-import { SeedButton } from '@/components/SeedButton'
 
 export default function Home() {
 	return (
@@ -40,12 +39,6 @@ export default function Home() {
 					</div>
 				</section>
 
-				<section className='mt-16 border-t pt-8 text-center'>
-					<p className='text-sm text-muted-foreground mb-4'>
-						First time? Seed the database with sample courses:
-					</p>
-					<SeedButton />
-				</section>
 			</main>
 		</>
 	)

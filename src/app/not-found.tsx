@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { SeedButton } from '@/components/SeedButton'
 
 export default function NotFound() {
 	return (
@@ -21,13 +20,6 @@ export default function NotFound() {
 					className='inline-flex items-center justify-center bg-secondary text-secondary-foreground font-medium py-2 px-6 rounded-md hover:bg-secondary/80 transition-colors'>
 					Browse Courses
 				</Link>
-			</div>
-
-			<div className='border-t pt-8 mt-8'>
-				<p className='text-sm text-muted-foreground mb-4'>
-					No courses showing? Try seeding the database:
-				</p>
-				<SeedButton />
 			</div>
 		</main>
 	)
