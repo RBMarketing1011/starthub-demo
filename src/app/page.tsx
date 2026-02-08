@@ -38,7 +38,6 @@ export default function Home() {
 						<p className='text-muted-foreground'>Average Rating</p>
 					</div>
 				</section>
-
 			</main>
 		</>
 	)
